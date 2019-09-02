@@ -155,6 +155,9 @@ def all_holidays_with_bbq(holiday_hash)
       :memorial_day => ["BBQ"]
     }
   }
+holiday_supplies.each do |value|
+  holiday_supplies[:fourth_of_july][1][:memorial_day]
+  holiday_supplies
 end
 end
 end
