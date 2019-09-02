@@ -135,7 +135,8 @@ def all_supplies_in_holidays(holiday_hash, season, holiday_name, supply_array)
       :memorial_day => ["BBQ"]
     }
   }
-christmas, new_years, fourth_of_july, thanksgiving, memorial_day = [:christmas, :new_years, :fourth_of_july, :fall, :spring].map {|supply| hash.fetch(supply)}
+all_supplies = ("Lights", "Wreath", "Party Hats", "Fireworks", "BBQ", "Turkey", "BBQ")
+  puts "#{all_supplies}"
 end
 
 def all_holidays_with_bbq(holiday_hash)
